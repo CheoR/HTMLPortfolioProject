@@ -15,3 +15,11 @@ For further instructions on how to get the app setup locally, visit our wiki:
 3. [Setup](https://github.com/codeschool/project-html-portfolio/wiki/Setup)
 4. [What we'll build](https://github.com/codeschool/project-html-portfolio/wiki/What-we'll-build)
 5. [Step by step](https://github.com/codeschool/project-html-portfolio/wiki/Step-by-step)
+
+Deploying
+
+Putting this site up on GitHub pages is a bit different than some other projects because the code is all in the /src directory. There’s a nifty way to push this directory to a GitHub branch, which allows you to use GitHub pages with it! Try running this Git command for this project:
+
+git subtree push --prefix src origin gh-pages
+
+This will push the src folder up to GitHub on the gh-pages branch. After that, you should be able to open up http://username.github.io/HTMLPortfolioProject, where username is your GitHub username.
